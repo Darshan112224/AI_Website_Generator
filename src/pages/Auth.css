@@ -1,0 +1,79 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .auth-form {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    max-width: 600px; /* Increase max-width to stretch the form */
+    width: 100%; /* Allow the form to take the full available width */
+    text-align: center;
+  }
+  
+  .auth-form h2 {
+    font-size: 2.2rem; /* Slightly larger font size */
+    color: #333;
+    margin-bottom: 1.5rem; /* Increased margin for better spacing */
+  }
+  
+  .auth-form input,
+  .auth-form select {
+    width: 100%;
+    padding: 12px; /* Increased padding for a more spacious look */
+    margin: 12px 0; /* Increased margin for better spacing */
+    font-size: 1.1rem; /* Slightly larger font size */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .auth-form input:focus,
+  .auth-form select:focus {
+    border: 1px solid #6a11cb;
+  }
+  
+  .auth-button {
+    width: 100%;
+    background: #6a11cb;
+    color: #fff;
+    font-size: 1.2rem; /* Slightly larger font size for the button */
+    padding: 12px; /* Increased padding for the button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .auth-button:hover {
+    background: #2575fc;
+  }
+  
+  .auth-link {
+    margin-top: 1.5rem;
+    font-size: 1rem; /* Slightly larger font size */
+    color: #555;
+  }
+  
+  .auth-link a {
+    color: #6a11cb;
+    text-decoration: none;
+  }
+  
+  .auth-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-error {
+    color: red;
+    margin-bottom: 1.5rem; /* Increased margin for better spacing */
+    font-size: 1rem; /* Slightly larger font size */
+  }
+  
